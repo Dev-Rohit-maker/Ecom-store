@@ -52,6 +52,7 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
         "neon-blue": "#00FFFF",
+        "accent-blue": "#0000FF", // New accent color
       },
       borderRadius: {
         lg: "var(--radius)",

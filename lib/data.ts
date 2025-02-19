@@ -7,7 +7,8 @@ export const products = [
     price: 129900,
     reviews: 4,
     quantity: 10,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/iphone14.jpg", // This is the important part
+    description: "The latest iPhone with advanced camera system and powerful A16 Bionic chip.",
   },
   {
     id: "E2",
@@ -16,7 +17,8 @@ export const products = [
     price: 74999,
     reviews: 4,
     quantity: 15,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/s23.jpg", // Remove "/public" from the path
+    description: "Featuring a pro-grade camera and long-lasting battery life.",
   },
   {
     id: "E3",
@@ -25,7 +27,8 @@ export const products = [
     price: 29990,
     reviews: 5,
     quantity: 20,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/sony wh-1000xm5.jpg",
+    description: "Industry-leading noise cancellation for immersive sound.",
   },
   {
     id: "E4",
@@ -34,7 +37,8 @@ export const products = [
     price: 114900,
     reviews: 5,
     quantity: 8,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/macbook air m2.jpg",
+    description: "Thin, light, and powerful laptop with the M2 chip.",
   },
   {
     id: "E5",
@@ -43,7 +47,8 @@ export const products = [
     price: 150000,
     reviews: 4,
     quantity: 5,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/dell xps 15.jpg",
+    description: "High-performance laptop with stunning display and powerful processor.",
   },
 
   // Groceries
@@ -54,7 +59,8 @@ export const products = [
     price: 1200,
     reviews: 4,
     quantity: 50,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/basmati rice.jpg",
+    description: "Premium quality basmati rice for your daily meals.",
   },
   {
     id: "G2",
@@ -63,7 +69,8 @@ export const products = [
     price: 500,
     reviews: 5,
     quantity: 100,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/organic turmeric.jpg",
+    description: "100% organic turmeric powder for your health and well-being.",
   },
   {
     id: "G3",
@@ -72,7 +79,8 @@ export const products = [
     price: 300,
     reviews: 4,
     quantity: 75,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/cold pressed mustard oil.jpg",
+    description: "Healthy and flavorful cold-pressed mustard oil.",
   },
   {
     id: "G4",
@@ -81,7 +89,8 @@ export const products = [
     price: 250,
     reviews: 4,
     quantity: 80,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/whole wheat atta.jpg",
+    description: "100% whole wheat atta for your roti and chapati.",
   },
   {
     id: "G5",
@@ -90,7 +99,8 @@ export const products = [
     price: 150,
     reviews: 5,
     quantity: 120,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/himalayan pink salt.jpg",
+    description: "Pure and unrefined Himalayan pink salt.",
   },
 
   // Home Appliances
@@ -101,7 +111,8 @@ export const products = [
     price: 55000,
     reviews: 4,
     quantity: 10,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/lg smart tv.jpg",
+    description: "Enjoy your favorite shows and movies on this smart TV.",
   },
   {
     id: "H2",
@@ -110,7 +121,8 @@ export const products = [
     price: 40000,
     reviews: 5,
     quantity: 15,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/dyson vacuum cleaner.jpg",
+    description: "Powerful and efficient vacuum cleaner for a spotless home.",
   },
   {
     id: "H3",
@@ -119,7 +131,8 @@ export const products = [
     price: 15000,
     reviews: 4,
     quantity: 20,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/philips air fryer.jpg",
+    description: "Healthy and delicious air frying with this Philips air fryer.",
   },
   {
     id: "H4",
@@ -128,7 +141,8 @@ export const products = [
     price: 35000,
     reviews: 4,
     quantity: 12,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/bosch washing machine.jpg",
+    description: "Reliable and efficient washing machine from Bosch.",
   },
   {
     id: "H5",
@@ -137,7 +151,8 @@ export const products = [
     price: 3000,
     reviews: 4,
     quantity: 30,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/prestige induction cooktop.jpg",
+    description: "Convenient and energy-efficient induction cooktop.",
   },
 
   // Fashion
@@ -148,7 +163,8 @@ export const products = [
     price: 7500,
     reviews: 5,
     quantity: 25,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/nike running shoes.jpg",
+    description: "Comfortable and stylish running shoes from Nike.",
   },
   {
     id: "F2",
@@ -157,7 +173,8 @@ export const products = [
     price: 3500,
     reviews: 4,
     quantity: 40,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/levis jeans.jpg",
+    description: "Classic and durable Levi's jeans.",
   },
   {
     id: "F3",
@@ -166,7 +183,8 @@ export const products = [
     price: 6000,
     reviews: 5,
     quantity: 20,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/ray ban sunglasses.jpg",
+    description: "Stylish and protective Ray-Ban sunglasses.",
   },
   {
     id: "F4",
@@ -175,7 +193,8 @@ export const products = [
     price: 9000,
     reviews: 4,
     quantity: 15,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/titan watch.jpg",
+    description: "Classic and elegant Titan watch.",
   },
   {
     id: "F5",
@@ -184,7 +203,8 @@ export const products = [
     price: 4500,
     reviews: 4,
     quantity: 30,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/adidas hoodie.jpg",
+    description: "Comfortable and stylish Adidas hoodie.",
   },
 
   // Books
@@ -195,7 +215,8 @@ export const products = [
     price: 400,
     reviews: 5,
     quantity: 50,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/the alchemist.jpg",
+    description: "A timeless classic about following your dreams.",
   },
   {
     id: "B2",
@@ -204,7 +225,8 @@ export const products = [
     price: 500,
     reviews: 5,
     quantity: 45,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/atomic habits.jpg",
+    description: "Learn how to build good habits and break bad ones.",
   },
   {
     id: "B3",
@@ -213,7 +235,8 @@ export const products = [
     price: 450,
     reviews: 4,
     quantity: 40,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/rich dad poor dad.jpg",
+    description: "A classic guide to financial literacy.",
   },
   {
     id: "B4",
@@ -222,7 +245,8 @@ export const products = [
     price: 700,
     reviews: 5,
     quantity: 35,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/sapiens.jpg",
+    description: "A sweeping history of humankind.",
   },
   {
     id: "B5",
@@ -231,7 +255,8 @@ export const products = [
     price: 550,
     reviews: 4,
     quantity: 38,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/the psychology of money.jpg",
+    description: "A practical guide to understanding money and behavior.",
   },
 ] as const
 

@@ -8,7 +8,7 @@ interface ProductCardProps {
     name: string
     price: number
     reviews: number
-    image?: string
+    image: string
   }
   featured?: boolean
 }
@@ -17,14 +17,13 @@ export function ProductCard({ product, featured }: ProductCardProps) {
   return (
     <Link
       href={`/products/${product.id}`}
-      className="group block rounded-lg border border-neon-blue p-4 hover:shadow-lg hover:shadow-neon-blue/20 transition-shadow"
+      className="group block rounded-lg border border-accent-blue p-4 hover:shadow-lg hover:shadow-accent-blue/20 transition-shadow"
     >
-      <div className="aspect-square overflow-hidden rounded-lg">
+      <div className="aspect-square overflow-hidden rounded-lg relative">
         <Image
-          src={product.image || "/placeholder.svg?height=400&width=400"}
+          src={product.image || "/placeholder.svg"}
           alt={product.name}
-          width={400}
-          height={400}
+          fill
           className="object-cover transition-transform group-hover:scale-105"
         />
       </div>
